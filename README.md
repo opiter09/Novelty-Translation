@@ -9,7 +9,7 @@ NVZ file to people (but not the "OLD_" one, that's a backup).
 Please note that NVZ files are actually just ZIP files, so if you rename one you can extract its
 contents. From there, you can edit the files using the actual Novelty editor (don't just change
 things yourself and re-zip, it won't work). I made this tool because I find a single text file 
-asier to work with than the whole graphical editor, but if you want to use it (or have images to
+easier to work with than the whole graphical editor, but if you want to use it (or have images to
 translate), it can be found here: http://www.visualnovelty.com/download.html.
 
 Finally, the file zipfileF.py was not made by me, and is not covered under this repository's
