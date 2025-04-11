@@ -3,7 +3,7 @@ This is a tool to make translating Novelty engine Visual Novels easier. Just dow
 from the Releases section, place it in the same folder as the game executable, and run it. This
 will generate a file named "translation.txt", which contains two version of each line of text,
 one Original, and one Translated (obviously they are both the same at first). When you are done,
-run novelty.exe again, and it will reinsert the file. From there, you can distribute the
+run novelty.exe again, and it will insert the translated text. From there, you can distribute the
 NVZ file to people (but not the "OLD_" one, that's a backup).
 
 Please note that NVZ files are actually just ZIP files, so if you rename one you can extract its
