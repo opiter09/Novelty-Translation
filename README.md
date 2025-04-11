@@ -1,6 +1,6 @@
 # Novelty-Translation
 This is a tool to make translating Novelty engine Visual Novels easier. Just download novelty.exe
-from the Releases section, place it in the same folder as the game execultable, and run it. This
+from the Releases section, place it in the same folder as the game executable, and run it. This
 will generate a file named "translation.txt", which contains two version of each line of text,
 one Original, and one Translated (obviously they are both the same at first). When you are done,
 run novelty.exe again, and it will reinsert the file. From there, you can distribute the
