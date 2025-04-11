@@ -9,7 +9,7 @@ NVZ file to people (but not the "OLD_" one, that's a backup).
 NOTE: This tool is is only designed for Windows (unless you want to try running the Python yourself,
 that is). For Mac and Linux, I can only point you to WINE (https://www.winehq.org/).
 
-Fun fact, NVZ files are actually just ZIP files, so if you rename one you can extract its
+Also, fun fact, NVZ files are actually just ZIP files, so if you rename one you can extract its
 contents. From there, you can edit the files using the actual Novelty editor (don't just change
 things yourself and re-zip, it won't work). I made this tool because I find a single text file 
 easier to work with than the whole graphical editor, but if you want to use it (or have images to
