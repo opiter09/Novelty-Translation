@@ -6,8 +6,11 @@ one Original, and one Translated (obviously they are both the same at first). Wh
 run novelty.exe again, and it will insert the translated text. From there, you can distribute the
 NVZ file to people (but not the "OLD_" one, that's a backup).
 
-NOTE: This tool is is only designed for Windows (unless you want to try running the Python yourself,
-that is). For Mac and Linux, I can only point you to WINE (https://www.winehq.org/).
+NOTE 1: This tool is is only designed for Windows (unless you want to try running the Python
+yourself, that is). For Mac and Linux, I can only point you to WINE (https://www.winehq.org/).
+
+NOTE 2: To determine where an option or "goto" action leads to, look for the "page-uid" section,
+then find the page marker with the same uid.
 
 Also, fun fact, NVZ files are actually just ZIP files, so if you rename one you can extract its
 contents. From there, you can edit the files using the actual Novelty editor (don't just change
