@@ -4,7 +4,7 @@ from the Releases section, place it in the same folder as the game executable, a
 will generate a file named "translation.txt", which contains two version of each line of text,
 one Original, and one Translated (obviously they are both the same at first). When you are done,
 run novelty.exe again, and it will reinsert the file. From there, you can distribute the
-NVZ file to people(but not the "OLD_" one, that's a backup).
+NVZ file to people (but not the "OLD_" one, that's a backup).
 
 Please note that NVZ files are actually just ZIP files, so if you rename one you can extract its
 contents. From there, you can edit the files using the actual Novelty editor (don't just change
