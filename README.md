@@ -7,7 +7,7 @@ run novelty.exe again, and it will insert the translated text. From there, you c
 NVZ file to people (but not the "OLD_" one, that's a backup).
 
 NOTE 1: This tool is is only designed for Windows (unless you want to try running the Python
-yourself, that is). For Mac and Linux, I can only point you to WINE (https://www.winehq.org/).
+yourself, that is). For Mac and Linux, I can only point you to WINE: https://www.winehq.org/.
 
 NOTE 2: To determine where an option or "goto" action leads to, look for the "page-uid" section,
 then find the page marker with the same uid.
@@ -15,11 +15,11 @@ then find the page marker with the same uid.
 NOTE 3: The characters "&#x0A;" (without the quotes) in a line of dialogue represent a line break.
 Novelty does not have automatic word-wrapping, so you will have to experiment to see how many
 characters of your game's font fit on each line. I have also found these other control
-characters so far:
-- &quot; = double quotation marks
-- &apos; = apostrophe (single quotation mark)
-- &amp; = ampersand ("&")
-- &lt; = lesser-than symbol ("<") [but you can enter ">" itself just fine]
+characters so far (also without the quotes):
+- "&quot;" = double quotation marks
+- "&apos;" = apostrophe (single quotation mark)
+- "&amp;" = ampersand ("&")
+- "&lt;" = lesser-than symbol ("<") [but you can enter ">" itself just fine]
 
 Also, fun fact, NVZ files are actually just ZIP files, so if you rename one you can extract its
 contents. From there, you can edit the files using the actual Novelty editor (don't just change
