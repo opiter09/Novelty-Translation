@@ -19,7 +19,7 @@ also found these other control characters so far (also without the backslash if 
 - \&quot; = double quotation marks
 - \&apos; = apostrophe (single quotation mark)
 - \&amp; = ampersand ("&")
-- \&lt; = lesser-than symbol ("<")
+- \&lt; = less-than symbol ("<")
 - \&gt; = greater-than symbol (">")
 
 Also, fun fact, NVZ files are actually just ZIP files, so if you rename one you can extract its
