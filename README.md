@@ -19,7 +19,8 @@ other control characters so far (also without the backslash if you can see it):
 - \&quot; = double quotation marks
 - \&apos; = apostrophe (single quotation mark)
 - \&amp; = ampersand ("&")
-- \&lt; = lesser-than symbol ("<") [but you can enter ">" itself just fine]
+- \&lt; = lesser-than symbol ("<")
+- \&gt; = greater-than symbol (">")
 
 Also, fun fact, NVZ files are actually just ZIP files, so if you rename one you can extract its
 contents. From there, you can edit the files using the actual Novelty editor (don't just change
