@@ -15,11 +15,11 @@ then find the page marker with the same uid.
 NOTE 3: The characters "&#x0A;" (without the quotes) in a line of dialogue represent a line break.
 Novelty does not have automatic word-wrapping, so you will have to experiment to see how many
 characters of your game's font fit on each line. I have also found these other control
-characters so far (also without the quotes):
-- "&quot;" = double quotation marks
-- "&apos;" = apostrophe (single quotation mark)
-- "&amp;" = ampersand ("&")
-- "&lt;" = lesser-than symbol ("<") [but you can enter ">" itself just fine]
+characters so far (without the backslash):
+- \&quot; = double quotation marks
+- \&apos; = apostrophe (single quotation mark)
+- \&amp; = ampersand ("&")
+- \&lt; = lesser-than symbol ("<") [but you can enter ">" itself just fine]
 
 Also, fun fact, NVZ files are actually just ZIP files, so if you rename one you can extract its
 contents. From there, you can edit the files using the actual Novelty editor (don't just change
