@@ -12,10 +12,10 @@ yourself, that is). For Mac and Linux, I can only point you to WINE: https://www
 NOTE 2: To determine where an option or "goto" action leads to, look for the "page-uid" section,
 then find the page marker with the same uid.
 
-NOTE 3: The characters "&#x0A;" (without the quotes) in a line of dialogue represent a line break.
-Novelty does not have automatic word-wrapping, so you will have to experiment to see how many
-characters of your game's font fit on each line. I have also found these other control
-characters so far (without the backslash if you can see it):
+NOTE 3: The characters "\&#x0A;" (without the quotes or the backslash if you can see it) in a line
+of dialogue represent a line break. Novelty does not have automatic word-wrapping, so you will have
+to experiment to see how many characters of your game's font fit on each line. I have also found these
+other control characters so far (also without the backslash if you can see it):
 - \&quot; = double quotation marks
 - \&apos; = apostrophe (single quotation mark)
 - \&amp; = ampersand ("&")
