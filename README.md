@@ -15,7 +15,7 @@ then find the page marker with the same uid.
 NOTE 3: The characters "&#x0A;" (without the quotes) in a line of dialogue represent a line break.
 Novelty does not have automatic word-wrapping, so you will have to experiment to see how many
 characters of your game's font fit on each line. I have also found these other control
-characters so far (without the backslash):
+characters so far (without the backslash if you can see it):
 - \&quot; = double quotation marks
 - \&apos; = apostrophe (single quotation mark)
 - \&amp; = ampersand ("&")
