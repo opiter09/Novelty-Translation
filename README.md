@@ -12,6 +12,15 @@ yourself, that is). For Mac and Linux, I can only point you to WINE (https://www
 NOTE 2: To determine where an option or "goto" action leads to, look for the "page-uid" section,
 then find the page marker with the same uid.
 
+NOTE 3: The characters "&#x0A;" (without the quotes) in a line of dialogue represent a line break.
+Novelty does not have automatic word-wrapping, so you will have to experiment to see how many
+characters of your game's font fit on each line. I have also found these other control
+characters so far:
+- &quot; = double quotation marks
+- &apos; = apostrophe (single quotation mark)
+- &amp; = ampersand ("&")
+- &lt; = lesser-than symbol ("<") [but you can enter ">" itself just fine]
+
 Also, fun fact, NVZ files are actually just ZIP files, so if you rename one you can extract its
 contents. From there, you can edit the files using the actual Novelty editor (don't just change
 things yourself and re-zip, it won't work). I made this tool because I find a single text file 
