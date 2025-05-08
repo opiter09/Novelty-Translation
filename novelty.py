@@ -32,7 +32,7 @@ if (zipF != ""):
 
         count = 0
         for l in lines:
-            if ((l.strip().startswith('<Action type="say"') == True) or (l.strip().startswith('<Option phrase="') == True)):
+            if ((l.strip().replace("'", '"').startswith('<Action type="say"') == True) or (l.strip().replace("'", '"').startswith('<Option phrase="') == True)):
                 count = count + 1
                 try:
                     new.write("O" + str(count).zfill(4) + ": " + l.strip() + "\n")
@@ -40,7 +40,7 @@ if (zipF != ""):
                     print(lines.index(l))
                 new.write("T" + str(count).zfill(4) + ": " + l.strip() + "\n")
                 new.write("\n")
-            elif ((l.strip().startswith('<Page name="') == True) or (l.strip().startswith('<Action type="goto"') == True)):
+            elif ((l.strip().replace("'", '"').startswith('<Page name="') == True) or (l.strip().replace("'", '"').startswith('<Action type="goto"') == True)):
                 new.write("~" + l.strip() + "~" + "\n\n")
         new.close()
     else:
