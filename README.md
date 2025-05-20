@@ -21,6 +21,8 @@ also found these other control characters so far (also without the backslash if 
 - \&amp; = ampersand ("&")
 - \&lt; = less-than symbol ("<")
 - \&gt; = greater-than symbol (">")
+I have also discovered that, despite how commonly they're used in the non-dialogue parts of
+lines, equals signs ("=") can just be typed in as themselves.
 
 Also, fun fact, NVZ files are actually just ZIP files, so if you rename one you can extract its
 contents. From there, you can edit the files using the actual Novelty editor (don't just change
